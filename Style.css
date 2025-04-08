@@ -1,0 +1,53 @@
+body{
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+input {
+  margin: 20px;
+  font-size: 50px;
+  border: black solid ;
+
+  border-radius: 20px;
+  width: 100vh;
+}
+
+input:hover {
+  background-color: rgb(182, 180, 180);
+}
+
+input:focus {
+  background-color: blue;
+  color: white;
+}
+
+h1:first-child {
+background-color: red;
+color: wheat;
+border-radius: 20px;
+}
+
+p:last-child {
+  background-color: yellow;
+}
+
+input:nth-child(5) {
+  background-color: rgb(0, 0, 0);
+  color: azure;
+}
+
+h1::before {
+
+  content: "📘";
+
+}
+
+h1::after {
+
+  content: "📘";
+
+}
+
+h1 {
+  font-size: 50px;
+}
